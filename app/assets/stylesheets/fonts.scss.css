@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'questa_granderegular';
+    src: font_url('nobile-regular-webfont.eot');
+    src: font_url('nobile-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       font_url('nobile-regular-webfont.woff') format('woff'),
+       font_url('nobile-regular-webfont.ttf') format('truetype'),
+       font_url('nobile-regular-webfont.svg#nobileregular') format('svg');
+    src: url('2-questa_grande_regular_31-webfont.woff2') format('woff2'),
+         url('2-questa_grande_regular_31-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
