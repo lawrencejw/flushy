@@ -27,12 +27,25 @@
         <%= link_to 'About', '#' %>
       </div>
     </header>
-
     <hr />
-
     <br class="clear" />
 
-    <%= yield %>
+    <div class="container"
+      <%= yield %>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+          Give good advice and keep giving.
+          </div>
+          <div class="col-6">
+          Proudly created for fun by <a href="https://justinwlawrence.netlify.com/">Justin Lawrence</a><br />
+          Want to build your own Web App? - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
